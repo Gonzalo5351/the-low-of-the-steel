@@ -1,0 +1,27 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de configuración del sistema/editor
+*.swp
+*.swo
+*~
+.DS_Store
+*.idea/
+.vscode/
+.emacs.d/
+
+# Archivos de datos locales
+data/log.json
+
+# Archivos de dependencias innecesarios si usás pip freeze
+pip-selfcheck.json
